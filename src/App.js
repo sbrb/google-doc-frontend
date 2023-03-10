@@ -15,7 +15,7 @@ function App() {
         <Route path="/" exact>
           <Redirect to={`/${uuidV4()}`} />
         </Route>
-        <Route path="/:id">
+        <Route path="https://google-doc.netlify.app/:id">
           <TextEditor />
         </Route>
       </Switch>
