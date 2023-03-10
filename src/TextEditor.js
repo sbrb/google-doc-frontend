@@ -21,7 +21,7 @@ export default function TextEditor() {
   const { id: documentId } = useParams()
   const [socket, setSocket] = useState()
   const [quill, setQuill] = useState()
-  console.log(documentId)
+
   
   useEffect(() => {
     const s = io("https://google-doc.onrender.com/")
