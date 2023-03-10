@@ -15,7 +15,7 @@ function App() {
         <Route path="/" exact>
           <Redirect to={`/${uuidV4()}`} />
         </Route>
-        <Route path="https://google-doc.onrender.com/:id">
+        <Route path="/:id">
           <TextEditor />
         </Route>
       </Switch>
