@@ -3,8 +3,8 @@ from = "/api/"
 to = "https://google-doc-backend.vercel.app/"
 status = 200
 force = true
-headers = {X-From = "Netlify”}
+headers = {X-From = "Netlify"}
 [[headers]]
-for = "/”
+for = "/"
 [headers.values]
-Access-Control-Allow-Origin = "*”
+Access-Control-Allow-Origin = "*"
