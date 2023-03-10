@@ -18,7 +18,7 @@ const TOOLBAR_OPTIONS = [
 ]
 
 export default function TextEditor() {
-  const { id: documentId } = useParams()
+  const { id:documentId } = useParams()
   const [socket, setSocket] = useState()
   const [quill, setQuill] = useState()
 

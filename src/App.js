@@ -15,7 +15,7 @@ function App() {
         <Route path="/" exact>
           <Redirect to={`/${uuidV4()}`} />
         </Route>
-        <Route path="/:id" exact>
+        <Route path="/:id" >
           <TextEditor />
         </Route>
       </Switch>
