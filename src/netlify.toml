@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/api/"
-to = "https://google-doc-backend.vercel.app/"
+to = "https://google-doc.onrender.com"
 status = 200
 force = true
 headers = {X-From = "Netlify"}
