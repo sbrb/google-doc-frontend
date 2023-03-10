@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" >
+        <Route path="/" exact>
           <Redirect to={`/${uuidV4()}`} />
         </Route>
-        <Route path="/:id">
+        <Route path="/:id" exact>
           <TextEditor />
         </Route>
       </Switch>
