@@ -9,13 +9,14 @@ import TextEditor from "./TextEditor";
 import "./App.css";
 
 function App() {
+  console.log(uuidV4()) 
   return (
     <Router>
       <Switch>
         <Route path="/" exact>
-          <Redirect to={`/${uuidV4()}`} />
+          <Redirect to={`/documents/${uuidV4()}`} />
         </Route>
-        <Route path="/:id">
+        <Route path="/documents/:id">
           <TextEditor />
         </Route>
       </Switch>
