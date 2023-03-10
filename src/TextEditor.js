@@ -23,7 +23,7 @@ export default function TextEditor() {
   const [quill, setQuill] = useState()
 
   useEffect(() => {
-    const s = io("https://google-doc.onrender.com/")
+    const s = io("https://google-doc.onrender.com/:id")
     setSocket(s)
 
     return () => {
